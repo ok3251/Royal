@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve list</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="back">
+    <a type="button" id="back" onClick="back1()">Home</a>
+  </div>
+<div id="firstpage">
+  <h1 class="m-5 text-center">🌸예약자 명단🌸</h1>
+  <form class="form-head">
+      <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg"> 예약자 성함 </span>
+          </div>
+          <input id="japanese" type="text" class="form-control japanese" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required name="jap">
+      </div>
+      <br>
+      <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg">예약자 번호</span>
+          </div>
+          <input id="english" type="text" class="form-control english" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required name="eng">
+      </div>
+      <br>
+      <button type="button" class="btn btn-outline-success" id="add-button">추가</button>
+  </form>
+  <ul class="card-list row m-2 d-flex flex-row justify-content-center" id="card">
+  </ul>
+</div>
+    <div id="secondpage">
+    </div>
+    <footer>
+        <div>
+            <p>created by jyc</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

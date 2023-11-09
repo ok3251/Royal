@@ -1,0 +1,38 @@
+body {
+  background-color: #251d9a;
+  text-align: center;
+  color:white;
+}
+
+.form-head {
+  width: 500px;
+  display: inline-block;
+}
+
+.update-input-box {
+  width: 200px;
+}
+
+.card-title {
+  width: 200px;
+  text-align: center;
+  font-size: 30px;
+  border:none;
+  background-color: white;
+
+}
+.card-text {
+  text-align: center;
+  border: none;
+  background-color: white;
+}
+
+#secondpage{
+  display:none;
+  font-size: 60px;
+  margin-top:40vh;
+}
+
+.back{
+  text-align: left;
+}
